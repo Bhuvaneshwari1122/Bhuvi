@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: url(pic/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+.info h1{
+    font-size: 65px;
+    color:rgb(36,32,30);
+}
+.info h3{
+    font-size: 28px;
+    letter-spacing: 1px;
+    line-height: 44px;
+}
+.info span{
+    color:rgb(230,104,59)
+}
+.info a{
+    text-decoration: none;
+    color: #fff;
+    background: rgb(36,32,30);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+body{
+    background-color: aqua
+}
+.info a:hover{
+    background: rgb(59,174,209);
+}
+.image{
+    width: 30%;
+    height: 70%;
+    position:static;
+    right: 100px;
+    bottom: 0;
+}
+.image img{
+    position:fixed;
+    height: 70%;
+    left: 60%;
+    transform: transition(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+
+}
+.image:hover .girl{
+    left: 55%;
+}
